@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+.header{
+    background-color: #a8a49f;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+a[target="home"]{
+    margin-left: 25%;
+}
+a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(84, 157, 221);
+    font-size: 30px;
+    transition: 0.5s;
+}
+.s_avatar{
+    position: fixed;
+    right: 150px;
+    top: 10px;
+}
+.submit{
+    height: 50px;
+    width: 50px;
+}
+.search{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+}
+.submit_s{
+    position: flex;
+}
+.search_s{
+    position: relative;
+}
