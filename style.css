@@ -6,12 +6,16 @@ body{
     width: 100%;
     background-size: cover;
     background-position: 50% 0%;
+    position: relative;
 }
 .header{
     background-color: rgb(28, 30, 31, 0.5);
     height: 60px;
     position: fixed;
     width: 100%;
+}
+.place{
+    width: 86%;
 }
 a[target="home"]{
     margin-left: 25%;
@@ -90,4 +94,66 @@ a:hover{
     background-color: rgb(152 255 5);
     border: 0px;
     color: rgb(130, 149, 165);
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.heads{
+    color: #249c88;
+    font-size: 85px;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    text-shadow: 5px 5px 8px black;
+    text-decoration: double;
+}
+
+@keyframes animate {
+    from {
+        font-size: 70px;
+    }
+    to{
+        font-size: 85px;
+    }
+}
+
+.line{
+    font-size: 50px;
+    color: #249c88;
+    animation-name: animates;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    text-shadow: 5px 5px 8px black;
+    text-decoration: double;
+    margin-right: -260px;
+}
+
+@keyframes animates {
+    from {
+        font-size: 35px;
+    }
+    to{
+        font-size: 50px;
+    }
+}
+.explore{
+    height: 35px;
+    width: 165px;
+    background-color: #3d8181;
+    margin-top: 226px;
+    border-radius: 10px;
+    border: none;
+}
+.explore:hover{
+    height: 35px;
+    width: 165px;
+    background-color: #2bd7d7;
+    margin-top: 226px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
 }
