@@ -3,10 +3,3 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-a{
-    text-transform: uppercase;
-}
-.navbar-nav{
-    padding-left: 10px;
-}

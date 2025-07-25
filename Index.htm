@@ -11,7 +11,7 @@
       .text-color{
         color:rgb(99, 96, 96);
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: large;
+        font-size: smaller;
         margin-top: 10px;
       }
       .text-color-logo{
@@ -20,30 +20,51 @@
         font-size: 30px;
       }
       .button-style{
-        margin-left: -40px;
-        background-color: rgb(202, 78, 78);
-        width: 96px;
+        margin-left: -70px;
+        background-color: rgb(254 107 107);
+        width: 30%;
+        border: none;
+        outline: none;
       }
       .search-size{
-          height: 50px;
+          height: 33px;
+      }
+      .fontt{
+        font-size: 4rem;
+        font-weight: 700;
+        color: #a2d3c7;
+        text-shadow: 2px 2px 5px black;
+      }
+      .btnm{
+        background-color: rgb(254 107 107);
+        height: 40px;
+        width: 200px;
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: 700;
       }
     </style>
   </head>
   <body>
-    <div class="bg-light p-4 row">
-      
-        <a class="container text-decoration-none col-sm-2 mx-auto container-sm-3 text-uppercase text-color-logo">Food</a>
-        
-        <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Home</a>
-        <a class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Trending</a>
-        <a class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Organic</a>
-        <a class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Store</a>
-        <a class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Contact</a>
-        <div class="col-sm-2 container-fluid">
-        <input type="search" name="Search" placeholder="   Search....." style="width: 250px; border-color: rgb(202, 78, 78);" class="rounded-pill search-size"/>
+    <div class="bg-light p-4 row" style="width: 100.7%; background-attachment: fixed;">
+      <a class="container text-decoration-none col-sm-2 mx-auto container-sm-3 text-uppercase text-color-logo">Food</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Home</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Trending</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Organic</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Store</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Contact</a>
+      <div class="col-sm-3 container-fluid">
+        <input type="search" name="Search" placeholder="   Search....." style="width: 80%; margin-top: 2px; border: 3px solid rgb(254 107 107);" class="rounded-pill search-size">
         <input type="button" value="Search" class="button-style rounded-pill text-white search-size"/>
-        </div>
-      
+      </div>      
+    </div>
+
+    <div class="container-fluid" style="height: 90vh; background-image: url('bg.jpg'); background-size: cover; width: 100%; background-position: 50% 50%;">
+      <div class="container-sm-3 text-center" style="padding: 190px 0px 0px 130px; height: 130px; width: 700px;">
+        <h1 class="text-capitalize fontt">nature has always cared for us!</h1>
+        <button class="text-capitalize rounded-pill btnm">more tips</button>
+      </div>
     </div>
   </body>
 </html>
