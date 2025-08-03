@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+<section class="bg-light p-4 row container-fluid" style="width: 100vmax; background-attachment: fixed;">
+      <a class="container text-decoration-none col-sm-2 mx-auto container-sm-3 text-uppercase text-color-logo">Food</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Home</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Trending</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Organic</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Store</a>
+      <a href="#" class="container text-decoration-none col-sm-1 text-uppercase text-color fw-bold">Contact</a>
+      <div class="col-sm-3 container-fluid">
+        <input type="search" name="Search" placeholder="   Search....." style="width: 80%; margin-top: 2px; border: 3px solid rgb(254 107 107);" class="rounded-pill d-flex search-size">
+        <input type="button" value="Search" class="button-style rounded-pill text-white search-size"/>
+      </div>      
+    </section>
